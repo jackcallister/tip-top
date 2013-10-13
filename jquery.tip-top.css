@@ -1,0 +1,28 @@
+[data-tip-top]:hover {
+  cursor: pointer;
+}
+
+.tip-top {
+  background: black;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  position: fixed;
+  width: 200px;
+}
+
+.tip-top-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+
+.tip-top-arrow.top {
+  border-top: 20px solid black;
+}
+
+.tip-top-arrow.bottom {
+  border-bottom: 20px solid black;
+}
